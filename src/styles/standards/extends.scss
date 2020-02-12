@@ -1,0 +1,25 @@
+%vafix {
+  font-size: 0;
+  &:before {
+    display: inline-block;
+    height: 100%;
+    content: "";
+    vertical-align: middle;
+  }
+}
+
+%flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+%btn-flex {
+  @extend %flex-center;
+  &:after,
+  &:before {
+    // flex: 1 0 auto;
+    flex: 0 0 auto;
+    content: '';
+  }
+}
