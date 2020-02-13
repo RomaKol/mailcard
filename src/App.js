@@ -4,13 +4,9 @@ import CardList from 'components/CardList';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app-container">
       <div className="container">
-        <div className="row">
-          <div className="col-4">
-            <CardList />
-          </div>
-        </div>
+        <CardList />
       </div>
     </div>
   );

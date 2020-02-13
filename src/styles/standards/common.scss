@@ -89,3 +89,90 @@ li {
   display: table;
   width: 100%;
 }
+
+.app-container {
+  position: relative;
+  padding: 30px 0;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 15px;
+  line-height: 27px;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 3px;
+  border: 1px solid #00f;
+  padding: 5px 20px;
+  font-size: 15px;
+  line-height: 15px;
+  cursor: pointer;
+  color: #00f;
+}
+
+.delete-all-btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #00f;
+  font-size: 15px;
+  line-height: 20px;
+  height: 20px;
+  padding: 0;
+
+  &__icon {
+    fill: #00f;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  &__text {
+
+  }
+}
+
+.check-all-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  font-size: 20px;
+  margin-right: 20px;
+  height: 20px;
+  cursor: pointer;
+
+  &__icon {
+    fill: #000;
+  }
+}
+
+.remove-selection {
+  color: #000;
+  font-size: 15px;
+  line-height: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 20px;
+
+  &__btn {
+    height: 20px;
+    margin-left: 10px;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+  }
+  &__icon {
+    font-size: 15px;
+    fill: #000;
+  }
+}
